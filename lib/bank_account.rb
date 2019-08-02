@@ -28,7 +28,6 @@ end
 def close_account
   @balance.clear
   @status = "close"
-
 end
 
 end
