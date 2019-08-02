@@ -21,9 +21,7 @@ def display_balance
 end
 
 def valid?
-  if @balance > 0 && @status == "open"
-    true
-  end
+  @balance > 0 && @status == "open"
 end
 
 def close_account
