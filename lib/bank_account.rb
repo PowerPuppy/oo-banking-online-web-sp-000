@@ -27,7 +27,7 @@ end
 
 def close_account
   @balance = 0
-  @status = "close"
+  @status = "closed"
 end
 
 end
