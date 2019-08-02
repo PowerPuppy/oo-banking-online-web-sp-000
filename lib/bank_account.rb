@@ -26,7 +26,7 @@ def valid?
 end
 
 def close_account
-  @balance.clear
+  @balance = 0
   @status = "close"
 end
 
