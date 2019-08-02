@@ -9,4 +9,5 @@ def initialize(sender, reciever, amount)
   @status = "pending"
 end
 
+
 end
