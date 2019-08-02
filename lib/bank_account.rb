@@ -13,7 +13,7 @@ def deposit(amount)
     nil
   else
     @balance += amount
-
+end
 end
 
 end
